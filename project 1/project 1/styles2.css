@@ -1,0 +1,186 @@
+.top_section{
+    padding-top: 3%;
+    background-image: url('/project 1/ressources/image/section_font_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3%;
+
+}
+#section_2{
+    background-image: url('/project 1/ressources/image/section_font_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top_section .describe{
+    display: block;
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.top_section h1{
+    display: block;
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 23px;
+    text-align: center;
+    color: white;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+.top_section h6{
+    display: block;
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+.card_container{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
+.card{
+    width: 260px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border: 1px solid none;
+    border-radius: 7px;
+    transition: 0.5s all;
+    margin-left: 50px;
+}
+#card_m{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 8px rgb(238, 238, 238);
+    cursor: pointer;
+}
+.top_card{
+    position: absolute;
+    width: 100%;
+    height: 55%;
+    z-index: 1;
+    border-radius: 7px 7px 0 0;
+}
+.top_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px 7px 0 0;
+}
+.bottom_card{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 0 0 7px 7px;
+}
+
+.bottom_card .info{
+    position: absolute;
+    padding-top: 8%;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    color: rgb(99, 97, 97);
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+.bottom_card .info p{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+}
+.bottom_card .info h3{
+    font-size: 14px;
+}
+.bottom_card .book_now{
+    position: absolute;
+    bottom: 11%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.bottom_card .book_now a{
+    text-decoration: none;
+    color: rgb(99, 97, 97);
+    width: auto;
+    height: auto;
+    padding: 3%;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid rgb(99, 97, 97);
+    border-radius: 2px;
+    transition: .3s all;
+}
+
+.bottom_card .book_now a:hover{
+    background-color: rgb(240, 77, 2);
+    color: white;
+    border-color: rgb(240, 77, 2);
+}
+
+#middle_section{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    
+}
+#data_container{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+
+}
+#data_container div{
+    width: 250px;
+    height: 100px;
+    padding-top: 30px;
+}
+#data_container h4{
+    text-align: center;
+    color: rgb(240, 77, 2);
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-size: 36px;
+    line-height: 0;
+}
+#data_container p{
+    text-align: center;
+    color: rgb(99, 97, 97);
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-size: 15px;
+    line-height: 0;
+    margin-top: 20%;
+}
+h5{
+    color: rgb(240, 77, 2);
+    margin-top: 10px;
+}
