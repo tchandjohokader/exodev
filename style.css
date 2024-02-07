@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.block {
+    margin: auto;
+    width: 1296px;
+    height: 500px;
+    display: flex;
+    background-color: rgba(78, 78, 78, 0.7) ;
+}
+.block2 {
+    margin: auto;
+    width: 1320px;
+    height: 500px;
+    display: flex;
+}
+  
+  .section-header {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+  }
+  
+  .section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  
+  .fond{
+    background-image: url('p.jpg');
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0px 5px 0px;
+  }
+  .row div{
+    width: 245.33px;
+    height: 46.66px;
+    margin: 20px;
+  }
+  .row .form-control{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    padding: 10px;
+  }
+  textarea:focus,input:focus{
+    outline: none;
+    border: 2px solid #e2430e;;
+  }
+  .textarea textarea{
+    width: 820px;
+    margin-left: 6.5%;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .text-center{
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .apropo{
+    width:550px;
+    height: 702.5px;
+  }
+  .apropo div{
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding: 15px;
+    margin: 30px;
+  }
+
+   .chef-member {
+    width: 404px;
+    height: 605px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+    margin: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+   .chef-member .member-img {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+  }
+  .member-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+   .chef-member .social {
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+  }
+  
+   .chef-member .social a {
+    transition: color 0.3s;
+    color: rgba(55, 55, 63, 0.4);
+    margin: 15px 12px;
+    display: block;
+    line-height: 0;
+    text-align: center;
+  }
+  
+   .chef-member .social a:hover,p span {
+    color: #e2430e;
+  }
+  
+   .chef-member .social i {
+    font-size: 18px;
+  }
+  
+   .chef-member .member-info {
+    padding: 10px 15px 20px 15px;
+  }
+  
+   .chef-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+   .chef-member .member-info span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.4);
+  }
+  
+   .chef-member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: rgba(33, 37, 41, 0.7);
+  }
+  
+   .chef-member:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+  }
+  
+   .chef-member:hover .social {
+    right: 8px;
+    opacity: 1;
+  }
+  .noschef{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+#po{
+    text-align: center;
+    color: #e2430e;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#chefs{
+    background-color: #f4f4f4;
+}
+.contact{
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    margin-top: 5%;
+    margin: auto;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+}
+.member-info h4,.contact h4{
+    color: #e2430e;
+    font-size: 35px;
+}
+.contact .info{
+    padding: 5px 0px;
+    width: 500px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px dashed;
+}
+.contact iframe{
+    border-radius: 10px;
+}
+
+
+
+.temoignage{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 70px;
+}
+
+.photo_client{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    transform: translateY(70px);
+    margin-left: 2.5%;
+}
+ .message{
+    width: 250px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 25px; 
+    
+}
+.message h2{
+    margin: 20px 0px;
+    color: #4d4d4d;
+    font-size: 25px;
+}
+.message img{
+    margin-left: 100%;
+}
+
+
+.commentaire{
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+    justify-content: space-around;
+    animation: slide 0.5 ease-in-out infinite;
+}
+
+.temoignage:hover{
+    border: 1px solid #e2430e;
+    cursor: pointer;
+}
+.etoile{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
