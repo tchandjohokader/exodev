@@ -81,8 +81,12 @@ section{
   justify-content: center;
 }
 
-.block .contain form div.textarea{
+.block .contain{
   width: 100%;
+}
+form div.textarea{
+  width: 89.9%;
+  margin-right: 3%;
 }
 .fond{
   background-image: url('./ressources/image/p.jpg');
